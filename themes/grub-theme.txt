@@ -1,0 +1,27 @@
+# Main options
+title-text: ""
+desktop-image: "/etc/default/themes/grub-boot(1).png"
+desktop-color: "#000000"
+terminal-font: "Terminus Regular 14"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Boot menu
++ boot_menu {
+  left = 35%
+  top = 59%
+  width = 27%
+  height = 42%
+  item_font = "/etc/default/themes/grub-font.pf2"
+  item_color = "#b0c4de"
+  selected_item_color = "#00ff7f"
+  icon_width = 40
+  icon_height = 40
+  item_icon_space = 20
+  item_height = 45
+  item_padding = 2
+  item_spacing = 10
+}
