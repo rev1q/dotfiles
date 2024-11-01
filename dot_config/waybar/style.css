@@ -18,14 +18,10 @@ window#waybar {
     /* or cyan, green, orange, pink, red, yellow, foreground, background-darker etc. */
 }
 
-#clock, #battery, #backlight, #pulseaudio, #network, #cpu, #memory {
-      /* color: #FFFFFF; */
-}
-
 #clock, #battery, #backlight, #pulseaudio, #network {
-    padding: 0 15px;
+    padding: 0 10px;
     margin: 0 3px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 #clock {
@@ -74,11 +70,11 @@ window#waybar {
 
 #memory {
     margin-right: 3px;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 20px 20px 0px;
 }
 
 #cpu {
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 20px 0px 0px 20px;
 }
 
 #network {
