@@ -1,5 +1,5 @@
 # Alias Settings
-alias ll='ls -Al'
+alias ll='ls -Alh'
 alias cc='cd ~'
 
 # Additional Settings
