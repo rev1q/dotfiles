@@ -1,3 +1,12 @@
+# Alias Settings
+alias ll='ls -Al'
+alias cc='cd ~'
+
+# Additional Settings
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Prompt Settings
 left_prompt() {
 	user="%F{17}%B%n%b%f"
 	mark_0="%F{0}%f"
