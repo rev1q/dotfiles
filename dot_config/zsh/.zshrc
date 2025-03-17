@@ -2,10 +2,6 @@
 alias ll='ls -Alh'
 alias cc='cd ~'
 
-# Additional Settings
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-
 # Prompt Settings
 left_prompt() {
 	user="%F{17}%B%n%b%f"
@@ -23,3 +19,6 @@ right_prompt() {
 
 PROMPT=$(left_prompt)
 RPROMPT=$(right_prompt)
+
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
