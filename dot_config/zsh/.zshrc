@@ -18,9 +18,16 @@ HISTSIZE=1000
 SAVEHIST=1000
 
 #
+# Auto command
+# 
+autoload -Uz compinit
+compinit
+zstyle ':completion:*' menu select
+zstyle ':completion::complete:*' gain-privileges 1
+
+#
 # Prompt Settings
 #
-
 export ARROW_RIGHT=$'\ue0b0' # ▶
 export ARROW_LEFT=$'\ue0b2' # ◀
 
