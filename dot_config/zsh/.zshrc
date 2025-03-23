@@ -3,6 +3,7 @@
 #
 alias ll='ls -Alh'
 alias cc='cd ~'
+alias steam='flatpak run com.valvesoftware.Steam'
 
 #
 # Source Settings

@@ -5,11 +5,11 @@
 # Read `man 5 sway` for a complete reference.
 
 ### Windows Border Setting
-default_border pixel 7
+default_border pixel 3
 
 ### Custum Windows gap
-gaps outer 5
-gaps inner 5
+gaps outer 3
+gaps inner 3
 
 ### Variables
 #
