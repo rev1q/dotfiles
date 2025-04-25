@@ -1,5 +1,4 @@
 # dotfiles
----
 * Arch Linuxカスタマイズ
 
 * dot_config
