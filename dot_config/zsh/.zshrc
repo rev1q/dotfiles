@@ -15,7 +15,7 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # History Settings
 #
 #HISTFILE=${HOME}/.zshrc_history
-export HISTFILE="$XDG_DATA_HOME/zsh/.zshrc_history"
+HISTFILE="$XDG_DATA_HOME/zsh/.zshrc_history"
 HISTSIZE=1000
 SAVEHIST=1000
 
