@@ -1,5 +1,5 @@
 # virtualbox
-env QT_QPA_PLATFORM=xcb virtualbox
+#env QT_QPA_PLATFORM=xcb virtualbox
 
 # XDG Base Directory Specification
 export XDG_DATA_HOME=$HOME/.local/share
