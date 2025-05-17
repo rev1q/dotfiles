@@ -27,7 +27,7 @@ window#waybar {
     padding: 0px 5px;
     margin: 0 5px;
     font-weight: bold;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 13px 13px 13px 13px;
 }
 
 #clock, #battery, #backlight, #pulseaudio, #network {
@@ -40,6 +40,33 @@ window#waybar {
     font-weight: bold;
     color: @green;
     /* background: linear-gradient(0deg, rgba(215,255,217,0.7) 0%, rgba(181,243,255,0.7) 50%); */
+}
+
+#cpu, #memory {
+    padding: 0 5px;
+    margin: 0 0px;
+    background: linear-gradient(0deg, rgba(215,255,217,0.7) 0%, rgba(181,243,255,0.7) 50%);
+}
+
+#cpu {
+    border-radius: 20px 0px 0px 20px;
+}
+
+#memory {
+    margin-right: 3px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+#network {
+    background: linear-gradient(0deg, rgba(215,255,217,0.7) 0%, rgba(181,243,255,0.7) 50%);
+}
+
+#pulseaudio {
+    background: linear-gradient(0deg, rgba(215,255,217,0.7) 0%, rgba(181,243,255,0.7) 50%);
+}
+
+#backlight {
+    background: linear-gradient(0deg, rgba(215,255,217,0.7) 0%, rgba(181,243,255,0.7) 50%);
 }
 
 #battery, #battery.charging, #battery.critical:not(.charging) {
@@ -59,10 +86,6 @@ window#waybar {
     animation-direction: alternate;
 }
 
-#backlight {
-    background: linear-gradient(0deg, rgba(215,255,217,0.7) 0%, rgba(181,243,255,0.7) 50%);
-}
-
 #tray {
     padding: 0 10px;
     /* margin: 0px; */
@@ -73,25 +96,3 @@ window#waybar {
     border-radius: 20px 20px 20px 20px;
 }
 
-#pulseaudio {
-    background: linear-gradient(0deg, rgba(215,255,217,0.7) 0%, rgba(181,243,255,0.7) 50%);
-}
-
-#cpu, #memory {
-    padding: 0 5px;
-    margin: 0 0px;
-    background: linear-gradient(0deg, rgba(215,255,217,0.7) 0%, rgba(181,243,255,0.7) 50%);
-}
-
-#memory {
-    margin-right: 3px;
-    border-radius: 0px 20px 20px 0px;
-}
-
-#cpu {
-    border-radius: 20px 0px 0px 20px;
-}
-
-#network {
-    background: linear-gradient(0deg, rgba(215,255,217,0.7) 0%, rgba(181,243,255,0.7) 50%);
-}
