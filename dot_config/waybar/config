@@ -1,8 +1,24 @@
+// Waybar Configuration
+
 {
     "layer": "top", // Waybar at top layer
     "modules-left": ["sway/workspaces"],
     "modules-center": ["clock"],
     "modules-right": ["cpu", "memory","network", "pulseaudio", "backlight", "battery", "tray"],
+
+    // Modules Configuration
+
+    "sway/workspaces": {
+        "persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+	"all-outputs": true,
+	"active-only": false
+    },
     "cpu": {
         "format": " {usage}%"
     },
