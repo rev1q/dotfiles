@@ -52,9 +52,11 @@
 	"on-click": "pavucontrol"
     },
     "clock": {
-        "tooltip-format": "{:%Y-%m-%d | %H:%M}",
-        "format-alt": "{:%Y-%m-%d}",
-        "format": "{:%a %Y-%m-%d %H:%M %p}"
+        // "tooltip-format": "{:%Y-%m-%d | %H:%M}\n<tt><small>{calendar}</small></tt>",
+        // "format-alt": "{:%Y-%m-%d}",
+        // "format": "{:%a %Y-%m-%d %H:%M %p}"
+	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+	"format-alt": "{:%Y-%m-%d | %H:%M}"
     },
     "battery": {
 	"format": "{icon} {capacity}%",
