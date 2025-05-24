@@ -10,11 +10,11 @@
 
     "sway/workspaces": {
         "persistent-workspaces": {
-            "1": [],
+            "1": ["eDP-1"],
             "2": [],
             "3": [],
-            "4": [],
-            "5": []
+            // "4": [],
+            // "5": []
         },
 	"all-outputs": true,
 	"active-only": false
